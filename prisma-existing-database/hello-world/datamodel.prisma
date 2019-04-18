@@ -1,0 +1,5 @@
+type User @db(name: "users") {
+  id: UUID! @id
+  age: Int
+  name: String!
+}
